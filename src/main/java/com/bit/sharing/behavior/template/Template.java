@@ -1,4 +1,4 @@
-package com.bit.sharing.behavior.Template;
+package com.bit.sharing.behavior.template;
 
 /**
  * @author chen lu

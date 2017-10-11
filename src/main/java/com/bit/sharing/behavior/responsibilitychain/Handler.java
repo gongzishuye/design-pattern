@@ -1,4 +1,4 @@
-package com.bit.sharing.behavior.ResponsibilityChain;
+package com.bit.sharing.behavior.responsibilitychain;
 
 /**
  * @author chen lu

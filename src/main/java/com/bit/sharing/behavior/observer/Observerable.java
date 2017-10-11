@@ -1,4 +1,4 @@
-package com.bit.sharing.behavior.Observer;
+package com.bit.sharing.behavior.observer;
 
 import java.util.LinkedList;
 import java.util.List;

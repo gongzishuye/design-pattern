@@ -1,4 +1,4 @@
-package com.bit.sharing.behavior.Observer;
+package com.bit.sharing.behavior.observer;
 
 /**
  * @author chen lu
