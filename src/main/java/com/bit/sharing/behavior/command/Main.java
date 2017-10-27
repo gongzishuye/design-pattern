@@ -5,7 +5,8 @@ package com.bit.sharing.behavior.command;
  */
 public class Main {
     public static void main(String[] args) {
-        Command command = new CommandImp();
+        Executor executor = new Executor();
+        Command command = new CommandImp(executor);
         Invoker invoker = new Invoker(command);
         invoker.action();
     }

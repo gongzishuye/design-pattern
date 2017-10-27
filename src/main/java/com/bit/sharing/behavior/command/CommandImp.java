@@ -5,8 +5,14 @@ package com.bit.sharing.behavior.command;
  */
 public class CommandImp implements Command{
 
+    private Executor executor;
+
+    public CommandImp(Executor executor) {
+        this.executor = executor;
+    }
+
     public void run() {
-        System.out.println("command done!!!");
+        executor.execute();
     }
 }
 
